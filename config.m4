@@ -1,7 +1,7 @@
 dnl $Id$
 dnl config.m4 for extension ast
 
-PHP_ARG_ENABLE(ast, whether to enable ast support,
+PHP_ARG_ENABLE(ast, enable ast support,
 [  --disable-ast       Disable ast support], yes)
 
 if test "$PHP_AST" != "no"; then

@@ -1,8 +1,11 @@
 // $Id$
 // vim:ft=javascript
 
-ARG_ENABLE("ast", "whether to enable ast support", "no");
+ARG_ENABLE("ast", "enable ast support", "no");
 
 if (PHP_AST != "no") {
+	CHECK_HEADER_ADD_INCLUDE("php_reflection.h", "CFLAGS_AST", "ext/reflection");
 	EXTENSION("ast", "ast.c");
+	
+
 }
