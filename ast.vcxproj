@@ -100,41 +100,49 @@
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\php.x86.extension.props" Condition="exists('..\php.x86.extension.props')" />
     <Import Project="..\php.extension.props" Condition="exists('..\php.extension.props')" />
     <Import Project="..\php.dbg.extension.props" Condition="exists('..\php.dbg.extension.props')" />
   </ImportGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_TS|Win32'" Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\php.x86.extension.props" Condition="exists('..\php.x86.extension.props')" />
     <Import Project="..\php.extension.props" Condition="exists('..\php.extension.props')" />
     <Import Project="..\php.dbg.extension.props" Condition="exists('..\php.dbg.extension.props')" />
     <Import Project="..\php.zts.extension.props" Condition="exists('..\php.zts.extension.props')" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\php.x86.extension.props" Condition="exists('..\php.x86.extension.props')" />
     <Import Project="..\php.extension.props" Condition="exists('..\php.extension.props')" />
   </ImportGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release_TS|Win32'" Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\php.x86.extension.props" Condition="exists('..\php.x86.extension.props')" />
     <Import Project="..\php.extension.props" Condition="exists('..\php.extension.props')" />
     <Import Project="..\php.zts.extension.props" Condition="exists('..\php.zts.extension.props')" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\php.x64.extension.props" Condition="exists('..\php.x64.extension.props')" />
     <Import Project="..\php.extension.props" Condition="exists('..\php.extension.props')" />
     <Import Project="..\php.dbg.extension.props" Condition="exists('..\php.dbg.extension.props')" />
   </ImportGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_TS|x64'" Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\php.x64.extension.props" Condition="exists('..\php.x64.extension.props')" />
     <Import Project="..\php.extension.props" Condition="exists('..\php.extension.props')" />
     <Import Project="..\php.dbg.extension.props" Condition="exists('..\php.dbg.extension.props')" />
     <Import Project="..\php.zts.extension.props" Condition="exists('..\php.zts.extension.props')" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\php.x64.extension.props" Condition="exists('..\php.x64.extension.props')" />
     <Import Project="..\php.extension.props" Condition="exists('..\php.extension.props')" />
   </ImportGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release_TS|x64'" Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\php.x64.extension.props" Condition="exists('..\php.x64.extension.props')" />
     <Import Project="..\php.extension.props" Condition="exists('..\php.extension.props')" />
     <Import Project="..\php.zts.extension.props" Condition="exists('..\php.zts.extension.props')" />
   </ImportGroup>
