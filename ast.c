@@ -14,7 +14,7 @@
 # error AST requires PHP version 7 or newer
 #endif
 
-#ifdef ENABLE_TRACE
+#ifdef _DEBUG
 #define TRACE(format, ...) fprintf(stderr, "[%s:%d] " format "\n", __FILE__, __LINE__, __VA_ARGS__)
 #else
 #define TRACE(format, ...) 
